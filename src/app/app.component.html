@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary text-white">
+    <a class="navbar-brand">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="home" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="pipes" routerLinkActive="acive">Pipes</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" [routerLink]="['structuraldirectives']" routerLinkActive="acive">Structural Directives</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" [routerLink]="['students']" routerLinkActive="acive">Students</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+<!-- <app-parent></app-parent> -->
+
+<!-- <button>primary</button> <button>Secondary</button> <button>Danger</button> -->
+
+<!-- {{name}} -->
+
+<!-- <div [innerText]="name"></div> -->
+<!-- <div innerText="{{name}}"></div> -->
+<!-- <img src="{{imgPath}}" alt="">
+<img [src]="imgPath" alt=""> -->
+<!-- <app-add></app-add> -->
+<!-- <button (click)="getData()">Click</button> -->
+
+<!-- <app-parent></app-parent> -->
+
+<!-- structural Directives -->
+<!-- <app-structuraldirectives></app-structuraldirectives> -->
+
+<!-- input -->
+<!-- <app-input-parent></app-input-parent> -->
+
+<!-- output -->
+<!-- <app-output-parent></app-output-parent> -->
+<!-- <app-pipes></app-pipes> -->
+<!-- <app-custompipes></app-custompipes> -->
+<!-- <app-host></app-host> -->
